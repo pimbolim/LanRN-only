@@ -1,0 +1,125 @@
+var ReactNative = require('react-native'),
+  module474 = require('./474'),
+  module480 = require('./480').CreateStyles({
+    root: {
+      flex: 1,
+      backgroundColor: 'white',
+    },
+    contentStyle: {
+      paddingTop: module474.ms(20),
+      backgroundColor: 'white',
+    },
+    mainText: {
+      fontFamily: module474.FontFamily.bold,
+      color: module474.Color.black,
+      fontSize: module474.FontSize.l,
+      marginTop: module474.ms(25),
+      textAlign: 'center',
+    },
+    subText: {
+      fontFamily: module474.FontFamily.regular,
+      color: module474.Color.black,
+      fontSize: module474.FontSize.m,
+      marginTop: module474.ms(10),
+      textAlign: 'center',
+    },
+    productsCounter: {
+      fontFamily: module474.FontFamily.bold,
+      fontSize: module474.FontSize.s,
+      marginBottom: module474.ms(10),
+    },
+    productsCounterText: {
+      borderBottomWidth: 1,
+      borderBottomColor: module474.Color.lightGray,
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+    },
+    isItAGiftContainer: {
+      height: module474.ms(50),
+      width: '100%',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingHorizontal: module474.ms(15),
+    },
+    isItAGiftText: {
+      fontFamily: module474.FontFamily.semiBold,
+      fontSize: module474.FontSize.s,
+      marginLeft: module474.ms(15),
+    },
+    summarySectionContainer: {
+      width: '100%',
+      paddingBottom: module474.ms(10),
+      justifyContent: 'center',
+      backgroundColor: 'white',
+    },
+    topBorder: {
+      borderTopWidth: ReactNative.StyleSheet.hairlineWidth * module474.ms(2),
+      borderTopColor: module474.Color.lightGray,
+    },
+    bottomBorder: {
+      borderBottomWidth: ReactNative.StyleSheet.hairlineWidth * module474.ms(2),
+      borderBottomColor: module474.Color.lightGray,
+    },
+    summarySectionTextSmall: {
+      fontFamily: module474.FontFamily.regular,
+      fontSize: module474.FontSize.l,
+      color: module474.Color.black,
+    },
+    summarySectionText: {
+      fontFamily: module474.FontFamily.semiBold,
+      fontSize: module474.FontSize.l,
+      color: module474.Color.black,
+    },
+    summarySectionTextBigger: {
+      fontFamily: module474.FontFamily.semiBold,
+      fontSize: module474.FontSize.xl,
+      color: module474.Color.black,
+    },
+    emptyContentContainer: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: module474.ms(20),
+      backgroundColor: 'white',
+    },
+    emptyContentButton: {
+      height: module474.ms(40),
+      width: '100%',
+      borderWidth: 1,
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginTop: module474.ms(10),
+      position: 'absolute',
+      alignSelf: 'center',
+      bottom: module474.ms(25),
+    },
+    button: {
+      height: module474.ms(40),
+      width: '100%',
+      padding: module474.ms(10),
+      alignSelf: 'center',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: module474.Color.primary,
+    },
+    buttonText: {
+      color: 'white',
+      fontSize: module474.FontSize.m,
+      fontFamily: module474.FontFamily.regular,
+    },
+    textRow: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      maxWidth: '100%',
+      paddingHorizontal: module474.ms(15),
+    },
+    buyText: {
+      fontFamily: module474.FontFamily.bold,
+      fontSize: module474.FontSize.m,
+    },
+  });
+
+exports.CStyles = module480;
